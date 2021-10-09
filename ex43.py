@@ -1,3 +1,5 @@
+# All the Code Written By Asif date 27th September 2021
+
 from sys import exit
 from random import gauss, randint
 from textwrap import dedent

@@ -1,3 +1,6 @@
+# All the Code Written By Asif date 27th September 2021
+# Object Oriented Program
+
 import random
 from urllib.request import urlopen
 import sys
