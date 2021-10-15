@@ -1,0 +1,17 @@
+{% extends 'basic.html' %}
+{% block title %}Confrim{% endblock %}
+{% block body %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-6 text-light">
+            {% if confrim %}
+                Name: {{confrim.name}}<br>
+                Email address: {{confrim.email}}<br>
+                Massage: {{confrim.massage}}
+            {% else %}
+                <p class="fs-2 fw-bold text-light">No Preview</p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

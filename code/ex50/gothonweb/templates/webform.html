@@ -1,0 +1,28 @@
+{% extends 'basic.html' %}
+{% block title %}Web Form{% endblock %}
+{% block body %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-6">
+            <form action="/" method="POST">
+                <header class="fs-3 fw-bold text-success text-center">Flask Web Form</header>
+                <div class="row text-light mt-3">
+                    <label for="name" class="form-label">Name: </label>
+                    <input type="text" name="name" id="name" class="form-control rounded-pill text-light bg-transparent" placeholder="Write your name">
+                </div>
+                <div class="row text-light mt-3">
+                    <label for="email" class="form-label">Email: </label>
+                    <input type="email" name="email" id="email" class="form-control rounded-pill text-light bg-transparent" placeholder="Write you email address">
+                </div>
+                <div class="row text-light mt-3">
+                    <label for="massage" class="form-label">Massage: </label>
+                    <textarea name="massage" id="massage" cols="30" rows="10" class="form-control rounded-4 bg-transparent text-light"></textarea>
+                </div>
+                <footer class="text-center mt-4">
+                    <button type="submit" class="btn btn-success rounded-pill">Submit</button>
+                </footer>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

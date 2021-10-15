@@ -1,0 +1,14 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://source.unsplash.com/weekly);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.col-6{
+    background-color: rgba(0, 0, 0, 0.616);
+    padding: 2%;
+    border-radius: 30px;
+}
