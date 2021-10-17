@@ -5,10 +5,10 @@ except ImportError:
 
 config = {
     'description': 'My Project',
-    'author': 'Polyon Mondal',
+    'author': 'ASIF HOSSAIN',
     'url': 'URL to get it at.',
     'download_url': 'Where to download it.',
-    'author_email': 'creativepolyon@gmail.com',
+    'author_email': 'hossainasif502@gmail.com',
     'version': '0.1',
     'install_requires': ['nose'],
     'packages': ['NAME'],

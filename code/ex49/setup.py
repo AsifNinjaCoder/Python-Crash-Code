@@ -5,10 +5,10 @@ except ImportError:
 
 config = {
     'description': 'Advance User Input',
-    'author': 'Polyon Mondal',
+    'author': 'ASIF HOSSAIN',
     'url': 'URL to get it at.',
     'download_url': 'Where to download it.',
-    'author_email': 'creativepolyon@gmail.com',
+    'author_email': 'hossainasif502@gmail.com',
     'version': '0.2',
     'install_requires': ['nose'],
     'packages': ['Exercise49'],
